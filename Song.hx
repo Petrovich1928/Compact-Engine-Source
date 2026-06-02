@@ -30,9 +30,16 @@ typedef SwagSong =
 
 	@:optional var arrowSkin:String;
 	@:optional var splashSkin:String;
+	
+	// Metadata Display (moved to "Mod parsings" tab)
 	@:optional var metadata_author:String;
-    @:optional var metadata_extra:String;
-    @:optional var metadata_showStart:Bool;
+	@:optional var metadata_extra:String;
+	@:optional var metadata_showStart:Bool;
+	
+	// Mod-specific settings (new "Mod parsings" tab)
+	@:optional var TimebarTimer:Bool;
+	@:optional var GhostTap:Bool;
+	@:optional var StartHP:Float;
 }
 
 typedef SwagSection =
